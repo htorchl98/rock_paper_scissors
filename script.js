@@ -41,7 +41,7 @@ function playHand(playerSelection) {
     computerScoreElement.textContent = `Computer's Score: ${computerScore}`;
 
             if (playerScore >= maxScore){
-                gameUpdate.textContent = "You the game! Congratz!!!"; scoreIsFive();
+                gameUpdate.textContent = "You won the game! Congratz!!!"; scoreIsFive();
             } 
             else if (computerScore >= maxScore) {
                 gameUpdate.textContent = "You lost the game.. Better luck next time!"; scoreIsFive();
